@@ -16,10 +16,6 @@
  ~Point(){}
   };
   
- int main(){
-  	Point a(2.2, 4.4);
-  	Point b;
-  	cout << "a" << endl;
 //shape class is virtual as its default for our actual shapes
 class Shape {
 
@@ -29,3 +25,8 @@ virtual bool contains(const Point & p); //virtual function to determine a point
 
 }
 
+ int main(){
+  	Point a(2.2, 4.4);
+  	Point b;
+  	cout << "a" << endl;
+ }
