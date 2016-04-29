@@ -25,6 +25,22 @@ virtual bool contains(const Point & p); //virtual function to determine a point
 
 }
 
+class Rectangle : Shape() {
+	
+}
+
+class Ellipse : Shape() {
+	
+}
+
+class Square : Rectangle() {
+	
+}
+
+class Cirlce : Ellipse() {
+	
+}
+
  int main(){
   	Point a(2.2, 4.4);
   	Point b;
