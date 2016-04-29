@@ -23,23 +23,25 @@ virtual ~Shape() = default; //destructs to default
 
 virtual bool contains(const Point & p); //virtual function to determine a point 
 
-}
+};
 
 class Rectangle : Shape() {
-	
-}
+	bool contains(const Point & p);
+	~Rectangle(){}
+};
 
 class Ellipse : Shape() {
-	
-}
+	bool contains(const Point & p);
+	~Ellipse(){};
+};
 
 class Square : Rectangle() {
-	
-}
+	~Square(){}
+};
 
 class Cirlce : Ellipse() {
-	
-}
+	~Circle()	
+};
 
  int main(){
   	Point a(2.2, 4.4);
