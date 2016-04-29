@@ -8,14 +8,8 @@
   	double y;
   
   public:
- Point(double a, double b): {
-  		x = a;
-  		y = b;
-  	}
- 	Point(){
-  		x = 0;
-  		y = 0;
-  	}
+	Point(double a=0, double b=0): x(a), y(b) {
+	}
  Point get(){
  		Point a(x, y);
  		return a;
